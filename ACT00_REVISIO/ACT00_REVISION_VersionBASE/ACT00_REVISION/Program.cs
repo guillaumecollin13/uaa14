@@ -17,11 +17,22 @@ namespace ACT00_REVISION
             int compteur;
             string methode;
             string info;
+            bool okiso;
+            string modyfycolor;
             MethodesDuProjet yo = new MethodesDuProjet();
+            mystruct mystru = new mystruct();
             // instanciation de la structure
             // ...... COMPLETER
 
             Console.WriteLine("Testez les polygones !");
+            Console.WriteLine("voulez vous changez les couleur de police et de fond(oui)");
+            modyfycolor = Console.ReadLine();
+            if (modyfycolor =="oui" ) 
+            {
+                mystru.disPref();
+            }
+            
+ 
             //On recommence tant que désiré
             do
             {
@@ -35,44 +46,49 @@ namespace ACT00_REVISION
 
                 yo.OrdonneCotes(ref c1, ref c2, ref c3);
                 // série de test (voir consignes)
-                if (yo.Triangle(c1,c2,c3))
+                if (ok=yo.Triangle(c1,c2,c3))
                 {
                     methode="triangle";
                     yo.Affiche(ok,methode, out info);
                     Console.WriteLine(info);
                     
-                    if (yo.Equi(c1, c2, c3))
+                    if (ok = yo.Equi(c1, c2, c3))
                     {
                         methode = "equilateral";
-                        yo.Affiche(ok, methode, out infos);
-                        Console.WriteLine(infos);
+                        yo.Affiche(ok, methode, out info);
+                        Console.WriteLine(info);
                     }
                     else
                     {
 
-                        if (yo.TriangleRectangle())
+                        if (ok = yo.TriangleRectangle(c1, c2, c3))
                         {
-                            // préparation et affichage du résultat positif du test 'rectangle' avec la procédure 'Affiche'
-                            // ...
-                            // ...
+                            methode = "rectangle";
+                            yo.Affiche(ok, methode, out info);
+                            Console.WriteLine(info);
                         }
                         else
                         {
-                            // préparation et affichage du résultat négatif du test 'rectangle' avec la procédure 'Affiche'
-                            // ...
-                            // ...
+                            ok = false;
+                            methode = "rectangle";
+                            yo.Affiche(ok, methode, out info);
+                            Console.WriteLine(info);
+
                         }
-                        // vérification du cas isocèle et affichage dans le cas positif
-                        //...
-                        //...
-                        //... A vous de voir en combien de lignes...
+                        
+                        if (okiso = yo.Isocele(c1, c2, c3))
+                        {
+                            methode = "isocele";
+                            yo.Affiche(okiso, methode, out info);
+                            Console.WriteLine(info);
+                        }
                     }
                 }
                 else // si ce n'est pas un triangle
                 {
-                    // préparation et affichage du résultat négataif du test 'triangle' avec la procédure 'Affiche'
-                    // ...
-                    // ...
+                    methode = "triangle";
+                    yo.Affiche(ok, methode, out info);
+                    Console.WriteLine(info);
                 }
                 // reprise ?
                 Console.WriteLine("Voulez-vous tester un autre polygône ? (Tapez espace)");
@@ -82,9 +98,11 @@ namespace ACT00_REVISION
         //Récupération d'une donnée fournie par l'utilisateur en 'double' : on suppose qu'il ne se trompe pas !
         static double lireDouble(int numeroCote)
         {
+            mystruct mystruc = new mystruct();
             double cote;
             Console.Write("Tapez la valeur du côté " + numeroCote + " : ");
-            cote = double.Parse(Console.ReadLine());
+            //cote = double.Parse(Console.ReadLine());
+            cote = mystruc.tryparse(); 
             return cote;
         }
     }

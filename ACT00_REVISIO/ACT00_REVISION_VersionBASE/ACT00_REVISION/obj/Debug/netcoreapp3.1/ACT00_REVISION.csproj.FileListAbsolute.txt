@@ -19,3 +19,17 @@ C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\ACT00_REVISION_Vers
 C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.csproj.CoreCompileInputs.cache
 C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.dll
 C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.pdb
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT00_REVISIO\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.exe
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT00_REVISIO\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.deps.json
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT00_REVISIO\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.runtimeconfig.json
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT00_REVISIO\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.runtimeconfig.dev.json
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT00_REVISIO\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.dll
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT00_REVISIO\ACT00_REVISION_VersionBASE\ACT00_REVISION\bin\Debug\netcoreapp3.1\ACT00_REVISION.pdb
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT00_REVISIO\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.csproj.AssemblyReference.cache
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT00_REVISIO\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT00_REVISIO\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.AssemblyInfoInputs.cache
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT00_REVISIO\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.AssemblyInfo.cs
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT00_REVISIO\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.csproj.CoreCompileInputs.cache
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT00_REVISIO\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.dll
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT00_REVISIO\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.pdb
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT00_REVISIO\ACT00_REVISION_VersionBASE\ACT00_REVISION\obj\Debug\netcoreapp3.1\ACT00_REVISION.genruntimeconfig.cache

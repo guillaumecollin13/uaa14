@@ -94,6 +94,7 @@ namespace ACT00_REVISION
             {
                 ok = true;
             }
+            return ok;
         }
         // fonction booléenne qui détermine si un triangle est équilatéral sur base de ses côtés
         public bool Equi(double a, double b, double c)
