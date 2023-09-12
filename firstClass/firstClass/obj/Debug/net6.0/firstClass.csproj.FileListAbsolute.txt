@@ -13,3 +13,17 @@ C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\firstClass\fi
 C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\firstClass\firstClass\obj\Debug\net6.0\firstClass.pdb
 C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\firstClass\firstClass\obj\Debug\net6.0\firstClass.genruntimeconfig.cache
 C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\firstClass\firstClass\obj\Debug\net6.0\ref\firstClass.dll
+H:\uaa14\firstClass\firstClass\obj\Debug\net6.0\firstClass.GeneratedMSBuildEditorConfig.editorconfig
+H:\uaa14\firstClass\firstClass\obj\Debug\net6.0\firstClass.AssemblyInfoInputs.cache
+H:\uaa14\firstClass\firstClass\obj\Debug\net6.0\firstClass.AssemblyInfo.cs
+H:\uaa14\firstClass\firstClass\obj\Debug\net6.0\firstClass.csproj.CoreCompileInputs.cache
+H:\uaa14\firstClass\firstClass\obj\Debug\net6.0\firstClass.dll
+H:\uaa14\firstClass\firstClass\obj\Debug\net6.0\refint\firstClass.dll
+H:\uaa14\firstClass\firstClass\obj\Debug\net6.0\firstClass.pdb
+H:\uaa14\firstClass\firstClass\bin\Debug\net6.0\firstClass.exe
+H:\uaa14\firstClass\firstClass\bin\Debug\net6.0\firstClass.deps.json
+H:\uaa14\firstClass\firstClass\bin\Debug\net6.0\firstClass.runtimeconfig.json
+H:\uaa14\firstClass\firstClass\bin\Debug\net6.0\firstClass.dll
+H:\uaa14\firstClass\firstClass\bin\Debug\net6.0\firstClass.pdb
+H:\uaa14\firstClass\firstClass\obj\Debug\net6.0\firstClass.genruntimeconfig.cache
+H:\uaa14\firstClass\firstClass\obj\Debug\net6.0\ref\firstClass.dll
