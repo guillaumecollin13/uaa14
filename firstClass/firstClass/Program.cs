@@ -2,6 +2,7 @@
 using firstClass;
 
 string affiche;
+string confirm;
 Console.WriteLine("Hello, World!");
 
 chien chien1 = new chien("plue","cockere",10, true,false,true,false,true);
@@ -17,7 +18,9 @@ chien1.Age =uint.Parse(Console.ReadLine());
 Console.WriteLine();
 string gen;
 if (chien1.Vaccin) { gen = "male"; } else { gen = "femelle"; }
-chien1.Vaccin = bool.Parse(Console.ReadLine());
+Console.WriteLine(gen);
+confirm=Console.ReadLine();
+if (confirm=="V") {chien1.Vaccin = true;}else { chien1.Vaccin = false;}
 Console.WriteLine(chien1.Genre);
 chien1.Genre = bool.Parse(Console.ReadLine());
 Console.WriteLine(chien1.Sterelise);
