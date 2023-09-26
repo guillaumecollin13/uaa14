@@ -4,6 +4,7 @@ class Example
 {
     public static void Main()
     {
+        double _rayon = 5;
         ConsoleColor[] colors = (ConsoleColor[])ConsoleColor.GetValues(typeof(ConsoleColor));
             ConsoleColor currentForeground = Console.ForegroundColor;
             ConsoleColor currentBackground = Console.BackgroundColor;
@@ -21,6 +22,10 @@ class Example
             Console.ResetColor();
             Console.WriteLine("\nOriginal colors restored...");
 
+
+        double resultat;
+        resultat = _rayon * _rayon;
+        Console.WriteLine(resultat);
 
     }
 }
