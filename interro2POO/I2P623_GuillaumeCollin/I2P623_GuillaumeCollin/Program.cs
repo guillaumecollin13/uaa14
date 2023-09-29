@@ -27,6 +27,7 @@ Console.WriteLine(" ");
 Console.WriteLine("faire passez le feux" + tricolore1.IdFeu + " au vert");
 tricolore1.CoulFeu = 3;
 Console.WriteLine(tricolore1.affinchinfoFeu());
+Console.WriteLine(" ");
 
 Console.WriteLine("clignotant");
 Console.WriteLine("______________");

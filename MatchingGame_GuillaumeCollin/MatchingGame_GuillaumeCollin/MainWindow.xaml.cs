@@ -12,6 +12,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Windows.Threading;
 
 namespace MatchingGame_GuillaumeCollin
 {
@@ -20,13 +21,19 @@ namespace MatchingGame_GuillaumeCollin
     /// </summary>
     public partial class MainWindow : Window
     {
+
         int index;
         string nextmoji;
-        Random nbAlea;
-        bool trouverPaire;
+        Random nbAlea =new Random();
+        bool trouverPaire =false;
         TextBlock derniereTBClique;
+        DispatcherTimer timer = new DispatcherTimer();
+        int tempsEcoule;
+        int nbPairesTrouvees;
         public MainWindow()
         {
+            timer.Interval = TimeSpan.FromSeconds(.1);
+            timer.Tick += new EventHandler(Timer_Tick);
             InitializeComponent();
             SetUpGame();
         }
@@ -34,7 +41,10 @@ namespace MatchingGame_GuillaumeCollin
 
        private void SetUpGame()
         {
-        List<string> animalsEmoji = new List<string>()
+            tempsEcoule = 0;
+            nbPairesTrouvees = 0;
+            timer.Start();
+            List<string> animalsEmoji = new List<string>()
         {
             "🐵","🐵",
             "🐶","🐶",
@@ -45,12 +55,15 @@ namespace MatchingGame_GuillaumeCollin
             "🐴","🐴",
             "🐸","🐸",
         };
-            foreach (TextBlock textBlock in grdMain.children.oftype<TextBlock>()) 
+            foreach (TextBlock textBlock in grdMain.Children.OfType<TextBlock>()) 
             {
-                index = nbAlea.Next(animalsEmoji.Count);
-                nextmoji = animalsEmoji[index];
-                textBlock.Text = nextmoji;
-                animalsEmoji.RemoveAt(index);
+                if (textBlock.Name != "txtTemps")
+                {
+                    index = nbAlea.Next(animalsEmoji.Count);
+                    nextmoji = animalsEmoji[index];
+                    textBlock.Text = nextmoji;
+                    animalsEmoji.RemoveAt(index);
+                }
             }
         }
 
@@ -64,8 +77,9 @@ namespace MatchingGame_GuillaumeCollin
                 trouverPaire = true;
             } else if(textBlockactif.Text == derniereTBClique.Text)
             {
+                nbPairesTrouvees++;
                 textBlockactif.Visibility = Visibility.Hidden;
-                trouverPaire = true;
+                trouverPaire = false;
             }else
             {
                 derniereTBClique.Visibility = Visibility.Visible;
@@ -73,5 +87,26 @@ namespace MatchingGame_GuillaumeCollin
             }
 
         }
+        private void Timer_Tick(object sender, EventArgs e)
+        {
+            tempsEcoule++;
+            txtTemps.Text= (tempsEcoule/10).ToString("0.0s");
+            if (nbPairesTrouvees==8)
+            {
+                timer.Stop();
+                txtTemps.Text = txtTemps.Text + "- Rejouer";
+            }
+        }
+        private void txtTemps_MouseDown(object sender, MouseButtonEventArgs e)
+        {
+            if (nbPairesTrouvees == 8)
+            {
+                SetUpGame();
+            }
+        }
+
+
+
     }
+
 }
