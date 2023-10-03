@@ -23,7 +23,7 @@ namespace ACT_2_POO__EXERCICES_1
 		public double caclculerAires()
 		{
 			double resultat;
-			resultat = (_rayon*_rayon)*Math.PI;
+            resultat = (_rayon*_rayon) * Math.PI;
 
 			return resultat;
 		}

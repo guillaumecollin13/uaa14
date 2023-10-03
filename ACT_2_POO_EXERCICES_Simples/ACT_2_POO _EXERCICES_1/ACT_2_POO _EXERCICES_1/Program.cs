@@ -8,7 +8,7 @@ Console.WriteLine("entrez le rayon de votre cercle");
 Rayon=double.Parse(Console.ReadLine());
 Cercle cercle=new Cercle(Rayon);
 
-Aire=cercle.caclculerPerimetre();
+Aire=cercle.caclculerAires();
 Perimetre=cercle.caclculerPerimetre();
 affichage=cercle.afficheCaracteristique(Aire, Perimetre);
 Console.WriteLine(affichage);
