@@ -22,15 +22,19 @@ namespace ACT_3_WPF
     /// </summary>
     public partial class MainWindow : Window
     {
-
+        string message;
+        double a, b, c;
         public MainWindow()
         {
             InitializeComponent();
             TxtA.PreviewTextInput += new TextCompositionEventHandler(VerifTextInput);
+            TxtA.PreviewTextInput += new TextCompositionEventHandler(RecupA);
             TxtB.PreviewTextInput += new TextCompositionEventHandler(VerifTextInput);
+            TxtB.PreviewTextInput += new TextCompositionEventHandler(RecupB);
             TxtC.PreviewTextInput += new TextCompositionEventHandler(VerifTextInput);
-
+            TxtC.PreviewTextInput += new TextCompositionEventHandler(RecupC);
             BtnCalculer.MouseEnter += new MouseEventHandler(SurvolBouton);
+            BtnCalculer.Click += new RoutedEventHandler(calculetri);
             
         }
         private void VerifTextInput(object sender, TextCompositionEventArgs e)
@@ -59,5 +63,25 @@ namespace ACT_3_WPF
            
         }
 
+        private void calculetri(object sender, RoutedEventArgs e)
+        {
+            mesOutils outils = new mesOutils();
+            outils.effectTrin(a,b,c, out message);
+            Window1 solution = new Window1();
+            solution.txt1.Text = message;
+            solution.Show();
+        }
+        private void RecupA(object sender, TextCompositionEventArgs e)
+        {
+            a =double.Parse(e.Text);
+        }
+        private void RecupB(object sender, TextCompositionEventArgs e)
+        {
+            b = double.Parse(e.Text);
+        }
+        private void RecupC(object sender, TextCompositionEventArgs e)
+        {
+            c = double.Parse(e.Text);
+        }
     }
 }

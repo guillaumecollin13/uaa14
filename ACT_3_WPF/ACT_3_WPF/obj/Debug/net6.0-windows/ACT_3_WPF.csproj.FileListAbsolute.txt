@@ -19,3 +19,5 @@ C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT_3_WPF\ACT
 C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT_3_WPF\ACT_3_WPF\obj\Debug\net6.0-windows\ACT_3_WPF.pdb
 C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT_3_WPF\ACT_3_WPF\obj\Debug\net6.0-windows\ACT_3_WPF.genruntimeconfig.cache
 C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT_3_WPF\ACT_3_WPF\obj\Debug\net6.0-windows\ref\ACT_3_WPF.dll
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT_3_WPF\ACT_3_WPF\obj\Debug\net6.0-windows\Window.g.cs
+C:\Users\collin guillaume\Dropbox\PC\Desktop\ecole\6TTI\info\uaa14\ACT_3_WPF\ACT_3_WPF\obj\Debug\net6.0-windows\Window.baml
