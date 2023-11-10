@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "ACT_3_ELEPHANTS_GUILLAUMECOLLIN/1.0.0": {
+        "runtime": {
+          "ACT_3_ELEPHANTS_GUILLAUMECOLLIN.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "ACT_3_ELEPHANTS_GUILLAUMECOLLIN/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

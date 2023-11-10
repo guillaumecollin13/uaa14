@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33723.286
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACT_3_ELEPHANTS_GUILLAUMECOLLIN", "ACT_3_ELEPHANTS_GUILLAUMECOLLIN\ACT_3_ELEPHANTS_GUILLAUMECOLLIN.csproj", "{00BE774B-CF72-4C35-96A4-C5CF7C7E021B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{00BE774B-CF72-4C35-96A4-C5CF7C7E021B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{00BE774B-CF72-4C35-96A4-C5CF7C7E021B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{00BE774B-CF72-4C35-96A4-C5CF7C7E021B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{00BE774B-CF72-4C35-96A4-C5CF7C7E021B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C309C0A-2763-4BF3-8C09-BC60657DDADF}
+	EndGlobalSection
+EndGlobal
