@@ -61,7 +61,7 @@ namespace ACT_3_WPF {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ACT_3_WPF;component/window.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ACT_3_WPF;V1.0.0.0;component/window.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\Window.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);
