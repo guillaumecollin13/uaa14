@@ -27,5 +27,13 @@ class Example
         resultat = _rayon * _rayon;
         Console.WriteLine(resultat);
 
+        int i = 0;
+
+        if (i %2 ==0 )
+        {
+                string lol = ("pair");
+            Console.WriteLine(lol);
+        }
+
     }
 }
