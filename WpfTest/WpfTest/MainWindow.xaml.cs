@@ -23,14 +23,11 @@ namespace WpfTest
         public MainWindow()
         {
             InitializeComponent();
-                agencement();
+            agencement();
         }
 
         public void agencement()
-            {
-            TextBlock textBlock = new TextBlock();
-            int k = 0;
-            int l;
+        {
             ColumnDefinition[] colDef = new ColumnDefinition[10];
             for (int i = 0; i < 10; i++)
             {
@@ -43,15 +40,28 @@ namespace WpfTest
             RowDefinition[] rowDef = new RowDefinition[10];
             for (int i = 0; i < 10; i++)
             {
-               rowDef[i] = new RowDefinition();
+                rowDef[i] = new RowDefinition();
             }
             for (int i = 0; i < 10; i++)
             {
                 grille.RowDefinitions.Add(rowDef[i]);
             }
-            int m = 20;
-          
-            
-            }
+            Button bouton = new Button();
+            Grid.SetColumn(bouton, 0);
+            Grid.SetRow(bouton, 0);
+            grille.Children.Add(bouton);
+
+            BitmapImage image = new BitmapImage();
+            image.BeginInit();
+            image.UriSource = new Uri("assets/portalAlertParadox.png", UriKind.Relative);
+            image.EndInit();
+
+            Image monImage = new Image();
+            monImage.Source = image;
+            monImage.Stretch = System.Windows.Media.Stretch.None;
+            bouton.Content= monImage;
+
+
         }
+    }
 }

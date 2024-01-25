@@ -7,4 +7,14 @@
     <UseWPF>true</UseWPF>
   </PropertyGroup>
 
+  <ItemGroup>
+    <None Remove="asset\portalAlertParadox.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="asset\portalAlertParadox.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Resource>
+  </ItemGroup>
+
 </Project>
