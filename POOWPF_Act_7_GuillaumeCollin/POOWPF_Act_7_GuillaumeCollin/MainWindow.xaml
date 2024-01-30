@@ -1,0 +1,41 @@
+﻿<Window x:Class="POOWPF_Act_7_GuillaumeCollin.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:POOWPF_Act_7_GuillaumeCollin"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="700" Width="800">
+    <Grid x:Name="grille">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="280*"></RowDefinition>
+            <RowDefinition Height="405*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Canvas x:Name="racetrack" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">
+            <Image Canvas.Left="-400"  Canvas.Top="-130" Stretch="None" Source="assets\racetrack.png"></Image>
+        </Canvas>
+        <Grid x:Name="grille2" Grid.Row="1">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="1*"></ColumnDefinition>
+                <ColumnDefinition Width="3*"></ColumnDefinition>
+                <ColumnDefinition Width="2*"></ColumnDefinition>
+            </Grid.ColumnDefinitions>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="0.3*"></RowDefinition>
+                <RowDefinition Height="2*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+                <RowDefinition Height="1*"></RowDefinition>
+            </Grid.RowDefinitions>
+            <TextBlock Grid.Row="0" Grid.ColumnSpan="3" FontSize="20" FontFamily="arial" HorizontalAlignment="Left" VerticalAlignment="Center">Salle des paris</TextBlock>
+
+            <TextBlock Grid.Row="1" Grid.ColumnSpan="3" FontSize="20" FontFamily="arial" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">Pari minimum : 5 écus</TextBlock>
+            
+
+
+        </Grid>
+
+
+    </Grid>
+</Window>

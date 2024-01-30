@@ -2,6 +2,7 @@
 
 class Example
 {
+    
     public static void Main()
     {
         double _rayon = 5;
@@ -34,6 +35,10 @@ class Example
                 string lol = ("pair");
             Console.WriteLine(lol);
         }
-
+        for (int j = 0; j < 10; j++)
+        {
+            Random alea = new Random();
+            Console.WriteLine(alea.Next(0, 20));
+        }
     }
 }

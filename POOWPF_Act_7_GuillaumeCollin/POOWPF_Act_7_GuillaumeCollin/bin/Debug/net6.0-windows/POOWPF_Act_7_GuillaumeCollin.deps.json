@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "POOWPF_Act_7_GuillaumeCollin/1.0.0": {
+        "runtime": {
+          "POOWPF_Act_7_GuillaumeCollin.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "POOWPF_Act_7_GuillaumeCollin/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
