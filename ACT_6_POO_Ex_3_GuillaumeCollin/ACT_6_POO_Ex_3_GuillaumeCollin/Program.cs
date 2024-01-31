@@ -11,7 +11,7 @@
             Console.WriteLine("aire"+carre.calculeSurface());
 
             Console.WriteLine("perimetre" + rectangle.calculePerimetre());
-            Console.WriteLine("aire" + rectangle.calculeSurface());
+            Console.WriteLine("aire" +  rectangle.calculeSurface());
         }
     }
 }
