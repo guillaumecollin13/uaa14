@@ -58,7 +58,7 @@ namespace CRUD_BDD_immo_GuillaumeC
                 insertCommand.Parameters.AddWithValue("@passwordUser", donnees[3]);
                 insertCommand.Parameters.AddWithValue("@role", donnees[4]);
 
-                if (insertCommand.ExecuteReader)
+                if (insertCommand.Execute)
                 {
                     ok = true;
                 }

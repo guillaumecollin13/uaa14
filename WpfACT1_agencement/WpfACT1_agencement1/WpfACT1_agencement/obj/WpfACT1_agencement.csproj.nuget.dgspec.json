@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\ecole\\6TTI\\info\\uaa14\\WpfACT1_agencement\\WpfACT1_agencement\\WpfACT1_agencement.csproj": {}
+    "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\ecole\\6TTI\\info\\uaa14\\WpfACT1_agencement\\WpfACT1_agencement1\\WpfACT1_agencement\\WpfACT1_agencement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\ecole\\6TTI\\info\\uaa14\\WpfACT1_agencement\\WpfACT1_agencement\\WpfACT1_agencement.csproj": {
+    "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\ecole\\6TTI\\info\\uaa14\\WpfACT1_agencement\\WpfACT1_agencement1\\WpfACT1_agencement\\WpfACT1_agencement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\ecole\\6TTI\\info\\uaa14\\WpfACT1_agencement\\WpfACT1_agencement\\WpfACT1_agencement.csproj",
+        "projectUniqueName": "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\ecole\\6TTI\\info\\uaa14\\WpfACT1_agencement\\WpfACT1_agencement1\\WpfACT1_agencement\\WpfACT1_agencement.csproj",
         "projectName": "WpfACT1_agencement",
-        "projectPath": "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\ecole\\6TTI\\info\\uaa14\\WpfACT1_agencement\\WpfACT1_agencement\\WpfACT1_agencement.csproj",
+        "projectPath": "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\ecole\\6TTI\\info\\uaa14\\WpfACT1_agencement\\WpfACT1_agencement1\\WpfACT1_agencement\\WpfACT1_agencement.csproj",
         "packagesPath": "C:\\Users\\collin guillaume\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\ecole\\6TTI\\info\\uaa14\\WpfACT1_agencement\\WpfACT1_agencement\\obj\\",
+        "outputPath": "C:\\Users\\collin guillaume\\Dropbox\\PC\\Desktop\\ecole\\6TTI\\info\\uaa14\\WpfACT1_agencement\\WpfACT1_agencement1\\WpfACT1_agencement\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

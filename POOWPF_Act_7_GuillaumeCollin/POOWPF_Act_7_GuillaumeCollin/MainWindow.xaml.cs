@@ -22,7 +22,10 @@ namespace POOWPF_Act_7_GuillaumeCollin
     {
         public MainWindow()
         {
+         
             InitializeComponent();
+          
+            
         }
     }
 }

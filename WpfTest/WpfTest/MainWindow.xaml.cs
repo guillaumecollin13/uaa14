@@ -61,6 +61,11 @@ namespace WpfTest
             monImage.Stretch = System.Windows.Media.Stretch.None;
             bouton.Content= monImage;
 
+            radio.Content = "va te faire";
+            Grid.SetColumn(radio, 1);
+            Grid.SetRow(radio, 1);
+            grille.Add(radio);
+            
 
         }
     }
