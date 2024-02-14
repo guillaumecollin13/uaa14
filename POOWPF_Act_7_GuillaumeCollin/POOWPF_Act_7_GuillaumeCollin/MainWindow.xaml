@@ -14,43 +14,48 @@
         <Canvas x:Name="racetrack" Grid.Row="0" HorizontalAlignment="Center" VerticalAlignment="Center">
             <Image x:Name="raceTrackIm" Canvas.Left="-400"  Canvas.Top="-130" Stretch="None" Source="assets\racetrack.png"></Image>
         </Canvas>
-        <Grid x:Name="grille2" Grid.Row="1">
-            <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="1*"></ColumnDefinition>
-                <ColumnDefinition Width="1*"></ColumnDefinition>
-                <ColumnDefinition Width="1*"></ColumnDefinition>
-                <ColumnDefinition Width="2*"></ColumnDefinition>
-                <ColumnDefinition Width="1*"></ColumnDefinition>
-                <ColumnDefinition Width="2*"></ColumnDefinition>
-            </Grid.ColumnDefinitions>
-            <Grid.RowDefinitions>
-                <RowDefinition Height="0.3*"></RowDefinition>
-                <RowDefinition Height="2*"></RowDefinition>
-                <RowDefinition Height="0.5*"></RowDefinition>
-                <RowDefinition Height="0.5*"></RowDefinition>
-            </Grid.RowDefinitions>
-            <TextBlock Grid.Row="0" Grid.ColumnSpan="3" FontSize="20" FontFamily="arial" HorizontalAlignment="Left" VerticalAlignment="Center">Salle des paris</TextBlock>
-
-            <TextBlock Grid.Row="1" Grid.ColumnSpan="3" FontSize="20" FontFamily="arial" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">Pari minimum : 5 écus</TextBlock>
-
-            <TextBlock Grid.Row="1" Grid.Column="3" FontSize="20" FontFamily="arial" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">Paris</TextBlock>
-
-            <RadioButton x:Name="radiobutton1" Grid.Row=" 1" Grid.ColumnSpan="3" Margin="50,60,0,110"/>
-            <RadioButton x:Name="radiobutton2" Grid.Row=" 1" Grid.ColumnSpan="3" Margin="50,120,0,70"/>
-            <RadioButton x:Name="radiobutton3" Grid.Row=" 1" Grid.ColumnSpan="3" Margin="50, 180,0,30"/>
-
-            <TextBlock Text ="X n'a pas encore parier" x:Name="Text1" Grid.Row=" 1" Grid.Column="3" Grid.ColumnSpan="3" Margin="10,58,0,110" />
-            <TextBlock Text ="X n'a pas encore parier" x:Name="Text2" Grid.Row=" 1" Grid.Column="3" Grid.ColumnSpan="3" Margin="10,118,0,70"/>
-            <TextBlock Text ="X n'a pas encore parier" x:Name="Text3" Grid.Row=" 1" Grid.Column="3" Grid.ColumnSpan="3" Margin="10, 178,0,30"/>
-
-            <TextBlock FontSize="25" FontFamily="arial" x:Name="nomParieur" Grid.Row=" 2" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20" Text =" X "/>
-            <Button FontSize="25" FontFamily="arial" x:Name="boutonPari" Content="Parie" Grid.Row=" 2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
-            <TextBox  FontSize="25" FontFamily="arial" x:Name="textBoxPari" Grid.Row=" 2" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left" BorderThickness="1" BorderBrush="Black" Margin="5" Width="25"></TextBox>
-            <TextBlock FontSize="25" FontFamily="arial" Text ="Ecus sur le chien N°" x:Name="TextePari" Grid.Row=" 2" Grid.Column="1" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Center"/>
-            <TextBox  FontSize="25" FontFamily="arial" x:Name="textBoxNumChien" Grid.Row="2" Grid.Column="2" VerticalAlignment="Center" HorizontalAlignment="Right" BorderThickness="1" BorderBrush="Black" Margin="5" Width="25"></TextBox>
-            <Button FontSize="25" FontFamily="arial" x:Name="boutonStart" Content="Lancer la course"  Grid.Row=" 2" Grid.Column="3" Grid.ColumnSpan="3" VerticalAlignment="Center" HorizontalAlignment="Center"></Button>
-        </Grid>
+        <GroupBox Width="800" Height="400" Grid.Row="1">
+                <GroupBox.Header>
+                    <Label FontSize="25" FontFamily="arial">Salle des paris</Label>
+                </GroupBox.Header>
+            <Grid x:Name="grille2" Grid.Row="1">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                    <ColumnDefinition Width="1*"></ColumnDefinition>
+                    <ColumnDefinition Width="2*"></ColumnDefinition>
+                </Grid.ColumnDefinitions>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="2*"></RowDefinition>
+                    <RowDefinition Height="0.5*"></RowDefinition>
+                    <RowDefinition Height="0.5*"></RowDefinition>
+                </Grid.RowDefinitions>
 
 
+                <TextBlock Grid.Row="0" Grid.ColumnSpan="3" FontSize="20" FontFamily="arial" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">Pari minimum : 5 écus</TextBlock>
+
+                <TextBlock Grid.Row="0" Grid.Column="3" FontSize="20" FontFamily="arial" HorizontalAlignment="Left" VerticalAlignment="Top" FontWeight="Bold">Paris</TextBlock>
+
+                <RadioButton IsChecked="True" FontSize="22" FontFamily="arial" x:Name="radiobutton1" Grid.Row=" 0" Grid.ColumnSpan="3" Margin="50,60,0,110"/>
+                <RadioButton FontSize="22" FontFamily="arial"  x:Name="radiobutton2" Grid.Row=" 0" Grid.ColumnSpan="3" Margin="50,120,0,70"/>
+                <RadioButton FontSize="22" FontFamily="arial" x:Name="radiobutton3" Grid.Row=" 0" Grid.ColumnSpan="3" Margin="50, 180,0,30"/>
+
+                <TextBlock FontSize="22" FontFamily="arial" Text ="X n'a pas encore parier" x:Name="Text1" Grid.Row=" 0" Grid.Column="3" Grid.ColumnSpan="3" Margin="10,60,0,110" />
+                <TextBlock FontSize="22" FontFamily="arial" Text ="X n'a pas encore parier" x:Name="Text2" Grid.Row=" 0" Grid.Column="3" Grid.ColumnSpan="3" Margin="10,120,0,70"/>
+                <TextBlock FontSize="22" FontFamily="arial" Text ="X n'a pas encore parier" x:Name="Text3" Grid.Row=" 0" Grid.Column="3" Grid.ColumnSpan="3" Margin="10, 180,0,30"/>
+
+                <TextBlock FontSize="22" FontFamily="arial" x:Name="nomParieur" Grid.Row=" 1" Grid.Column="0" VerticalAlignment="Center" HorizontalAlignment="Left" Margin="20" Text =" X "/>
+                <Button FontSize="22" FontFamily="arial" x:Name="boutonPari" Content="Parie" Grid.Row=" 1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Left"></Button>
+                <TextBox  FontSize="22" FontFamily="arial" x:Name="textBoxPari" Grid.Row=" 1" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Right" BorderThickness="1" BorderBrush="Black" Margin="5" Width="25"></TextBox>
+                <TextBlock FontSize="22" FontFamily="arial" Text ="Ecus sur le chien numéros" x:Name="TextePari" Grid.Row=" 1" Grid.Column="2" Grid.ColumnSpan="2" VerticalAlignment="Center" HorizontalAlignment="Left"/>
+                <TextBox  FontSize="22" FontFamily="arial" x:Name="textBoxNumChien" Grid.Row="1" Grid.Column="3" VerticalAlignment="Center" HorizontalAlignment="Right" BorderThickness="1" BorderBrush="Black" Margin="5" Width="25"></TextBox>
+                <Button FontSize="25" FontFamily="arial" x:Name="boutonStart" Content="Lancer la course"  Grid.Row=" 1" Grid.Column="4" Grid.ColumnSpan="3" VerticalAlignment="Center" ></Button>
+
+                <Button FontSize="25" FontFamily="arial" x:Name="boutonrESET" Content="RESET"  Grid.Row=" 2" Grid.Column="0" Grid.ColumnSpan="6" VerticalAlignment="Center"></Button>
+
+            </Grid>
+        </GroupBox>
     </Grid>
 </Window>

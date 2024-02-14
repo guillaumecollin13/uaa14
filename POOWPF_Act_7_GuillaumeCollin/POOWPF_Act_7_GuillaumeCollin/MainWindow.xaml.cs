@@ -22,10 +22,14 @@ namespace POOWPF_Act_7_GuillaumeCollin
     {
         public MainWindow()
         {
-         
+            Parieur Bill = new Parieur("Bill", 50);
+            Parieur Luc = new Parieur("Luc", 50);
+            Parieur Jacque = new Parieur("Jacque", 50);
             InitializeComponent();
-          
-            
+            radiobutton1.Content = Bill.MajInfos();
+            radiobutton2.Content = Luc.MajInfos();
+            radiobutton3.Content = Jacque.MajInfos();
+
         }
     }
 }
